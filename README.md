@@ -3,7 +3,7 @@ Checks if there are any System alert messages active on xenServer pool/host. Req
 
 Example Nagios check command:
 Nagios command define:
-# set $USER26$ under resource.cfg, its xenserver password
+set $USER26$ under resource.cfg, its xenserver password
 
 ```
 define command {
