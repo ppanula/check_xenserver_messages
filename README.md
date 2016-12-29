@@ -2,7 +2,9 @@
 Checks if there are any System alert messages active on xenServer pool/host. Requires XenServer v6.2+ version as message priorities are not defined properly on older versions.
 
 Example Nagios check command:
+
 Nagios command define:
+
 set $USER26$ under resource.cfg, its xenserver password
 
 ```
